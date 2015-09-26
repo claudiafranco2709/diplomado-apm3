@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+	/*background-attachment: fixed;*/
+	background-color: #fff;
+	background-image: url(18.jpg);
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	
+
+	.titulo {
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+	font-style: oblique;
+	color: #06C;
+	text-align: center;
+	font-weight: bold;
