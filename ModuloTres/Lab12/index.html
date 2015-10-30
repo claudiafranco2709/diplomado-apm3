@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="reveal-app">
+<head>
+	<title>AngularJS First Application</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div ng-controller="controllerOne">
+		<div ng-show="revealDiv">
+			<h1>creacion de app</h1>
+            <p>Los vertebrados son un subfilo muy diverso de cordados que comprende a los animales con espina dorsal o columna vertebral, compuesta de vértebras. Incluye casi 62 000 especies actuales y muchos fósiles
+            </p>
+		</div>
+
+		<button ng-click="controlButton()" ng-show="revealButton">Boton1</button>
+   
+        
+    
+        
+        
+ 		<button ng-click="controlButton2()" ng-show="revealButton2">Boton2</button>       
+	</div>
+    
+    
+      
+	<script type="text/javascript" src="../assets/angular.min.js"></script>
+
+	<script type="text/javascript">
+
+	angular.module('reveal-app', [])
+		   .controller('controllerOne', function($scope){
+		   		$scope.revealDiv = true;
+		   		$scope.revealButton = true;
+				$scope.revealButton2 = true;
+
+		   		$scope.controlButton = function(){
+		   			$scope.revealDiv = false;
+		   			$scope.revealButton = true;
+					$scope.revealButton2 = true;
+				};
+					
+					$scope.controlButton2 = function(){
+		   			$scope.revealDiv = true;
+		   			$scope.revealButton = false;
+					$scope.revealButton2 = true;
+							
+					
+					
+		   		};
+
+		   });
+	</script>
+
+
+</body>
+</html>
