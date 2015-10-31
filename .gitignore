@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 ### Xcode template
 # Xcode
@@ -151,6 +152,8 @@ build/Release
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 ### Windows template
+=======
+>>>>>>> 87674d142806fbaca42ac61e5d7ded2a29eb1fb1
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -169,11 +172,23 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+<<<<<<< HEAD
 ### OSX template
+=======
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+>>>>>>> 87674d142806fbaca42ac61e5d7ded2a29eb1fb1
 .DS_Store
 .AppleDouble
 .LSOverride
 
+<<<<<<< HEAD
 # Icon must end with two \r
 Icon
 
@@ -187,6 +202,14 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+=======
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+>>>>>>> 87674d142806fbaca42ac61e5d7ded2a29eb1fb1
 
 # Directories potentially created on remote AFP share
 .AppleDB
